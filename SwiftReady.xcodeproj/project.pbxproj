@@ -10,6 +10,12 @@
 		26279A441DF89F5D0047BA92 /* SwiftReady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26279A3A1DF89F5D0047BA92 /* SwiftReady.framework */; };
 		26279A491DF89F5D0047BA92 /* SwiftReadyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A481DF89F5D0047BA92 /* SwiftReadyTests.m */; };
 		26279A4B1DF89F5D0047BA92 /* SwiftReady.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A3D1DF89F5D0047BA92 /* SwiftReady.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A561DF89F8F0047BA92 /* Baby.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A541DF89F8F0047BA92 /* Baby.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A571DF89F8F0047BA92 /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A551DF89F8F0047BA92 /* Baby.m */; };
+		26279A5A1DF89F9E0047BA92 /* Bear.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A581DF89F9E0047BA92 /* Bear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A5B1DF89F9E0047BA92 /* Bear.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A591DF89F9E0047BA92 /* Bear.m */; };
+		26279A5E1DF89FD50047BA92 /* Kitten.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A5C1DF89FD50047BA92 /* Kitten.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A5F1DF89FD50047BA92 /* Kitten.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A5D1DF89FD50047BA92 /* Kitten.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		26279A431DF89F5D0047BA92 /* SwiftReadyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReadyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26279A481DF89F5D0047BA92 /* SwiftReadyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftReadyTests.m; sourceTree = "<group>"; };
 		26279A4A1DF89F5D0047BA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26279A541DF89F8F0047BA92 /* Baby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
+		26279A551DF89F8F0047BA92 /* Baby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
+		26279A581DF89F9E0047BA92 /* Bear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bear.h; sourceTree = "<group>"; };
+		26279A591DF89F9E0047BA92 /* Bear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bear.m; sourceTree = "<group>"; };
+		26279A5C1DF89FD50047BA92 /* Kitten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitten.h; sourceTree = "<group>"; };
+		26279A5D1DF89FD50047BA92 /* Kitten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitten.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,12 @@
 			children = (
 				26279A3D1DF89F5D0047BA92 /* SwiftReady.h */,
 				26279A3E1DF89F5D0047BA92 /* Info.plist */,
+				26279A541DF89F8F0047BA92 /* Baby.h */,
+				26279A551DF89F8F0047BA92 /* Baby.m */,
+				26279A581DF89F9E0047BA92 /* Bear.h */,
+				26279A591DF89F9E0047BA92 /* Bear.m */,
+				26279A5C1DF89FD50047BA92 /* Kitten.h */,
+				26279A5D1DF89FD50047BA92 /* Kitten.m */,
 			);
 			path = SwiftReady;
 			sourceTree = "<group>";
@@ -93,6 +111,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26279A561DF89F8F0047BA92 /* Baby.h in Headers */,
+				26279A5E1DF89FD50047BA92 /* Kitten.h in Headers */,
+				26279A5A1DF89F9E0047BA92 /* Bear.h in Headers */,
 				26279A4B1DF89F5D0047BA92 /* SwiftReady.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26279A571DF89F8F0047BA92 /* Baby.m in Sources */,
+				26279A5B1DF89F9E0047BA92 /* Bear.m in Sources */,
+				26279A5F1DF89FD50047BA92 /* Kitten.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char SwiftReadyVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SwiftReady/PublicHeader.h>
 
+// The Oatmeal's Babies vs Bears card game:
+// https://www.kickstarter.com/projects/elanlee/bears-vs-babies-a-card-game
 
+#import <SwiftReady/Baby.h>
+#import <SwiftReady/Bear.h>
+#import <SwiftReady/Kitten.h>
