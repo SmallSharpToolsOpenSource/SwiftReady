@@ -8,14 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		26279A441DF89F5D0047BA92 /* SwiftReady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26279A3A1DF89F5D0047BA92 /* SwiftReady.framework */; };
-		26279A491DF89F5D0047BA92 /* SwiftReadyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A481DF89F5D0047BA92 /* SwiftReadyTests.m */; };
 		26279A4B1DF89F5D0047BA92 /* SwiftReady.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A3D1DF89F5D0047BA92 /* SwiftReady.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26279A561DF89F8F0047BA92 /* Baby.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A541DF89F8F0047BA92 /* Baby.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26279A571DF89F8F0047BA92 /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A551DF89F8F0047BA92 /* Baby.m */; };
-		26279A5A1DF89F9E0047BA92 /* Bear.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A581DF89F9E0047BA92 /* Bear.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26279A5B1DF89F9E0047BA92 /* Bear.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A591DF89F9E0047BA92 /* Bear.m */; };
-		26279A5E1DF89FD50047BA92 /* Kitten.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A5C1DF89FD50047BA92 /* Kitten.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26279A5F1DF89FD50047BA92 /* Kitten.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A5D1DF89FD50047BA92 /* Kitten.m */; };
+		26279A621DFF08950047BA92 /* Weapon.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A601DFF08950047BA92 /* Weapon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A631DFF08950047BA92 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A611DFF08950047BA92 /* Weapon.m */; };
+		26279A661DFF0A350047BA92 /* Player.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A641DFF0A350047BA92 /* Player.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A671DFF0A350047BA92 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A651DFF0A350047BA92 /* Player.m */; };
+		26279A6A1DFF0A450047BA92 /* Creature.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A681DFF0A450047BA92 /* Creature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A6B1DFF0A450047BA92 /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A691DFF0A450047BA92 /* Creature.m */; };
+		26279A721DFF0B410047BA92 /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A701DFF0B410047BA92 /* Card.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A731DFF0B410047BA92 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A711DFF0B410047BA92 /* Card.m */; };
+		26279A761DFF0CC00047BA92 /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A741DFF0CC00047BA92 /* Game.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26279A771DFF0CC00047BA92 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A751DFF0CC00047BA92 /* Game.m */; };
+		26279A801DFF126B0047BA92 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A7E1DFF126B0047BA92 /* Utility.h */; };
+		26279A811DFF126B0047BA92 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A7F1DFF126B0047BA92 /* Utility.m */; };
+		26279A841DFF19320047BA92 /* NSArray+SwiftReady.h in Headers */ = {isa = PBXBuildFile; fileRef = 26279A821DFF19320047BA92 /* NSArray+SwiftReady.h */; };
+		26279A851DFF19320047BA92 /* NSArray+SwiftReady.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A831DFF19320047BA92 /* NSArray+SwiftReady.m */; };
+		26279A871DFF20AD0047BA92 /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26279A861DFF20AD0047BA92 /* ArrayTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,14 +43,24 @@
 		26279A3D1DF89F5D0047BA92 /* SwiftReady.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftReady.h; sourceTree = "<group>"; };
 		26279A3E1DF89F5D0047BA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26279A431DF89F5D0047BA92 /* SwiftReadyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReadyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26279A481DF89F5D0047BA92 /* SwiftReadyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiftReadyTests.m; sourceTree = "<group>"; };
 		26279A4A1DF89F5D0047BA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26279A541DF89F8F0047BA92 /* Baby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
 		26279A551DF89F8F0047BA92 /* Baby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
-		26279A581DF89F9E0047BA92 /* Bear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bear.h; sourceTree = "<group>"; };
-		26279A591DF89F9E0047BA92 /* Bear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bear.m; sourceTree = "<group>"; };
-		26279A5C1DF89FD50047BA92 /* Kitten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitten.h; sourceTree = "<group>"; };
-		26279A5D1DF89FD50047BA92 /* Kitten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitten.m; sourceTree = "<group>"; };
+		26279A601DFF08950047BA92 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		26279A611DFF08950047BA92 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		26279A641DFF0A350047BA92 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		26279A651DFF0A350047BA92 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		26279A681DFF0A450047BA92 /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		26279A691DFF0A450047BA92 /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
+		26279A701DFF0B410047BA92 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		26279A711DFF0B410047BA92 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		26279A741DFF0CC00047BA92 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		26279A751DFF0CC00047BA92 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		26279A7E1DFF126B0047BA92 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		26279A7F1DFF126B0047BA92 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		26279A821DFF19320047BA92 /* NSArray+SwiftReady.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SwiftReady.h"; sourceTree = "<group>"; };
+		26279A831DFF19320047BA92 /* NSArray+SwiftReady.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SwiftReady.m"; sourceTree = "<group>"; };
+		26279A861DFF20AD0047BA92 /* ArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +103,9 @@
 		26279A3C1DF89F5D0047BA92 /* SwiftReady */ = {
 			isa = PBXGroup;
 			children = (
-				26279A3D1DF89F5D0047BA92 /* SwiftReady.h */,
-				26279A3E1DF89F5D0047BA92 /* Info.plist */,
-				26279A541DF89F8F0047BA92 /* Baby.h */,
-				26279A551DF89F8F0047BA92 /* Baby.m */,
-				26279A581DF89F9E0047BA92 /* Bear.h */,
-				26279A591DF89F9E0047BA92 /* Bear.m */,
-				26279A5C1DF89FD50047BA92 /* Kitten.h */,
-				26279A5D1DF89FD50047BA92 /* Kitten.m */,
+				26279A791DFF0CE90047BA92 /* App */,
+				26279A781DFF0CCD0047BA92 /* Game */,
+				26279A881DFF33FC0047BA92 /* Models */,
 			);
 			path = SwiftReady;
 			sourceTree = "<group>";
@@ -98,10 +113,49 @@
 		26279A471DF89F5D0047BA92 /* SwiftReadyTests */ = {
 			isa = PBXGroup;
 			children = (
-				26279A481DF89F5D0047BA92 /* SwiftReadyTests.m */,
 				26279A4A1DF89F5D0047BA92 /* Info.plist */,
+				26279A861DFF20AD0047BA92 /* ArrayTests.m */,
 			);
 			path = SwiftReadyTests;
+			sourceTree = "<group>";
+		};
+		26279A781DFF0CCD0047BA92 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				26279A741DFF0CC00047BA92 /* Game.h */,
+				26279A751DFF0CC00047BA92 /* Game.m */,
+				26279A701DFF0B410047BA92 /* Card.h */,
+				26279A711DFF0B410047BA92 /* Card.m */,
+				26279A641DFF0A350047BA92 /* Player.h */,
+				26279A651DFF0A350047BA92 /* Player.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		26279A791DFF0CE90047BA92 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				26279A3D1DF89F5D0047BA92 /* SwiftReady.h */,
+				26279A3E1DF89F5D0047BA92 /* Info.plist */,
+				26279A7E1DFF126B0047BA92 /* Utility.h */,
+				26279A7F1DFF126B0047BA92 /* Utility.m */,
+				26279A821DFF19320047BA92 /* NSArray+SwiftReady.h */,
+				26279A831DFF19320047BA92 /* NSArray+SwiftReady.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		26279A881DFF33FC0047BA92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26279A541DF89F8F0047BA92 /* Baby.h */,
+				26279A551DF89F8F0047BA92 /* Baby.m */,
+				26279A681DFF0A450047BA92 /* Creature.h */,
+				26279A691DFF0A450047BA92 /* Creature.m */,
+				26279A601DFF08950047BA92 /* Weapon.h */,
+				26279A611DFF08950047BA92 /* Weapon.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,10 +165,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26279A841DFF19320047BA92 /* NSArray+SwiftReady.h in Headers */,
 				26279A561DF89F8F0047BA92 /* Baby.h in Headers */,
-				26279A5E1DF89FD50047BA92 /* Kitten.h in Headers */,
-				26279A5A1DF89F9E0047BA92 /* Bear.h in Headers */,
+				26279A621DFF08950047BA92 /* Weapon.h in Headers */,
+				26279A661DFF0A350047BA92 /* Player.h in Headers */,
+				26279A801DFF126B0047BA92 /* Utility.h in Headers */,
+				26279A6A1DFF0A450047BA92 /* Creature.h in Headers */,
+				26279A721DFF0B410047BA92 /* Card.h in Headers */,
 				26279A4B1DF89F5D0047BA92 /* SwiftReady.h in Headers */,
+				26279A761DFF0CC00047BA92 /* Game.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				26279A571DF89F8F0047BA92 /* Baby.m in Sources */,
-				26279A5B1DF89F9E0047BA92 /* Bear.m in Sources */,
-				26279A5F1DF89FD50047BA92 /* Kitten.m in Sources */,
+				26279A631DFF08950047BA92 /* Weapon.m in Sources */,
+				26279A6B1DFF0A450047BA92 /* Creature.m in Sources */,
+				26279A771DFF0CC00047BA92 /* Game.m in Sources */,
+				26279A851DFF19320047BA92 /* NSArray+SwiftReady.m in Sources */,
+				26279A811DFF126B0047BA92 /* Utility.m in Sources */,
+				26279A731DFF0B410047BA92 /* Card.m in Sources */,
+				26279A671DFF0A350047BA92 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26279A491DF89F5D0047BA92 /* SwiftReadyTests.m in Sources */,
+				26279A871DFF20AD0047BA92 /* ArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

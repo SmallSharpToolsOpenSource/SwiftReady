@@ -19,6 +19,10 @@ FOUNDATION_EXPORT const unsigned char SwiftReadyVersionString[];
 // The Oatmeal's Babies vs Bears card game:
 // https://www.kickstarter.com/projects/elanlee/bears-vs-babies-a-card-game
 
+#import <SwiftReady/Game.h>
+#import <SwiftReady/Card.h>
+#import <SwiftReady/Player.h>
+
 #import <SwiftReady/Baby.h>
-#import <SwiftReady/Bear.h>
-#import <SwiftReady/Kitten.h>
+#import <SwiftReady/Creature.h>
+#import <SwiftReady/Weapon.h>

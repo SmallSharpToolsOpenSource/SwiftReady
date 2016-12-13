@@ -8,8 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSUInteger, BabyType) {
+    BabyTypeMean = 0,
+    BabyTypeAngry,
+    BabyTypePoopy
+};
+
+NS_ASSUME_NONNULL_BEGIN
+
 @interface Baby : NSObject
 
-@property (strong, nonatomic, nonnull) NSString *name;
+@property (readonly, nonatomic) BabyType babyType;
+@property (readonly, nonatomic) NSString *name;
+
+- (instancetype)initWithBabyType:(BabyType)babyType name:(NSString *)name;
 
 @end
+
+NS_ASSUME_NONNULL_END
